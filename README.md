@@ -12,4 +12,4 @@ This script depend on a user scripting browser extension
 once that extension is installed, click on the `raw` link for a user script
 (link provided below)
 
-[install](https://github.com/gauntface/graphite-to-github-redirect/raw/refs/heads/main/graphite-to-github.user.js)
+[Install](https://github.com/gauntface/graphite-to-github-redirect/raw/refs/heads/main/graphite-to-github.user.js)
