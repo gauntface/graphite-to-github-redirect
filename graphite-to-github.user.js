@@ -12,10 +12,11 @@
 (function() {
   'use strict';
 
+  // URL Format: https://app.graphite.dev/github/pr/<org>/<repo>/<PR Number>
   // URL Format: https://app.graphite.dev/github/pr/<org>/<repo>/<PR Number>/<PR Title>
   const href = window.location.href.trim();
   console.log(`Checking Graphite URL for GitHub redirect: ${href}`);
-  const regex = /https:\/\/app.graphite.dev\/github\/pr\/([^/]+)\/([^/]+)\/(\d+)\/.*/;
+  const regex = /https:\/\/app.graphite.dev\/github\/pr\/([^/]+)\/([^/]+)\/(\d+)(\/.*)?/;
   const match = href.match(regex);
   if (!match) {
       console.log(`Not a match`);
